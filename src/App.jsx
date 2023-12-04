@@ -1,13 +1,13 @@
-import './App.css';
-import Header from './components/header/Header';
 import { HashRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import './App.css';
 
 const App = () => {
 	return (
 		<>
 			<HashRouter>
 				<Routes>
-					<Route path='/' element={<Header />} />
+					<Route path='/' element={<Home />} />
 				</Routes>
 			</HashRouter>
 		</>
