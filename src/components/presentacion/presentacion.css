@@ -13,6 +13,40 @@
 	align-items: left;
 }
 
+.section-presentacion div #div1-nombre {
+	font-size: 1.3rem;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+}
+
+.section-presentacion div #div1-nombre span {
+	color: #2ecc71;
+}
+
+.section-presentacion div #div1-breve-descripcion {
+	font-size: 0.8rem;
+	letter-spacing: 0.8px;
+	font-style: oblique;
+}
+
+.section-presentacion div #div1-buttom-contactame button {
+	width: 200px;
+	height: 40px;
+	font-size: 0.8rem;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #414bb2;
+}
+
+.section-presentacion div #div1-buttom-contactame button:hover {
+	font-size: 1rem;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
 .section-presentacion #div2 {
 	width: 20%;
 	display: flex;

@@ -5,16 +5,21 @@ const Presentacion = () => {
 		<>
 			<section className='section-presentacion'>
 				<div id='div1'>
-					<div>Lety Cisneros</div>
-					<div>
-						Ayudo a Lorem ipsum dolor sit amet consectetur,
-						adipisicing elit. Officia eius laudantium aliquid quia
-						repellat inventore dolorem nisi, alias dolor, voluptate
-						eveniet repellendus temporibus atque ratione mollitia
-						harum aperiam exercitationem quibusdam!
+					<div id='div1-nombre'>
+						<span>Lety </span>Cisneros
 					</div>
-					<div>
-						<button>Contactatme</button>
+					<div id='div1-breve-descripcion'>
+						Ayudo a Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Eos animi itaque quae, beatae soluta
+						debitis deleniti sequi aliquid nam similique nesciunt
+						blanditiis, voluptatem odit cumque eligendi
+						necessitatibus fugiat ea eum laudantium? Nemo fuga
+						aliquam dicta reprehenderit iusto. Accusamus doloremque
+						unde quaerat explicabo quis voluptatibus minima dolore,
+						ullam adipisci ab eos.
+					</div>
+					<div id='div1-buttom-contactame'>
+						<button>Contactame</button>
 					</div>
 				</div>
 				<div id='div2'>
