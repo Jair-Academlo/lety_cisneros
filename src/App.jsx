@@ -1,12 +1,16 @@
 import './App.css';
 import Header from './components/header/Header';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
 	return (
-		<div>
-			<h1>Lety Cisneros</h1>
-			<Header />
-		</div>
+		<>
+			<HashRouter>
+				<Routes>
+					<Route path='/' element={<Header />} />
+				</Routes>
+			</HashRouter>
+		</>
 	);
 };
 

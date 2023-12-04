@@ -1,12 +1,14 @@
-import { Container } from 'react-bootstrap';
 import './header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
 		<>
-			<Container>
-				<h1>aqui va el header</h1>
-			</Container>
+			<section>
+				<Link>Quien Soy</Link>
+				<Link>Eventos y Conferencias</Link>
+				<Link>Blog</Link>
+			</section>
 		</>
 	);
 };
