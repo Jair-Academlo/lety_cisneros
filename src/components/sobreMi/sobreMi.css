@@ -4,4 +4,16 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	height: 400px;
+}
+
+#section-sobre-mi-div-1 {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#section-sobre-mi-div-2 {
+	width: 50%;
 }
