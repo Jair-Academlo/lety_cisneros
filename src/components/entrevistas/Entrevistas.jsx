@@ -9,17 +9,25 @@ const Entrevistas = () => {
 				</div>
 				<div id='section-entrevistas-videos'>
 					<iframe
-						width='400'
-						height='300'
 						src='https://www.youtube.com/embed/SvPo3w3hgdg?si=xz6SybbVQZvwOhyX'
 						title='YouTube video player'
 						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
 						allowfullscreen
 					></iframe>
 					<iframe
-						width='400'
-						height='300'
 						src='https://www.youtube.com/embed/LCTDG9bJnvk?si=Rd5mmppNqgccW4GH'
+						title='YouTube video player'
+						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+						allowfullscreen
+					></iframe>
+					<iframe
+						src='https://www.youtube.com/embed/tR1ECf4sEpw?si=xUZUr6l3EosbVqqz'
+						title='YouTube video player'
+						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+						allowfullscreen
+					></iframe>
+					<iframe
+						src='https://www.youtube.com/embed/60OlNC0U5Mg?si=azBwAXpn5ciQLdoL'
 						title='YouTube video player'
 						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
 						allowfullscreen

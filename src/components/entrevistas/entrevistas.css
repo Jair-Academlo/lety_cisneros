@@ -19,7 +19,37 @@
 }
 
 #section-entrevistas-videos {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#section-entrevistas-videos iframe {
+	width: 400px;
+	height: 300px;
+	border-radius: 20px;
+	margin: 20px 0;
 }
 
 #section-entrevistas-imagenes {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 10px 0;
+	gap: 10px;
+}
+
+#section-entrevistas-imagenes img {
+	width: 150px;
+	height: 150px;
+	object-fit: contain;
+	border-radius: 10px;
 }
