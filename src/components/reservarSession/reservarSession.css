@@ -1,0 +1,58 @@
+.section-reservar-session {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+}
+
+.section-reservar-session #container-reservar-session {
+    width: 50%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+.section-reservar-session div #div-session-titulo h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section-reservar-session div #div-session-descripcion {
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+    font-style: oblique;
+}
+
+.section-reservar-session div #div-session-button button {
+    width: 200px;
+    height: 40px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #414bb2;
+}
+
+.section-reservar-session div #div-session-button button:hover {
+    font-size: 1rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.section-reservar-session #div-session-bloque-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-reservar-session #div-session-bloque-2 img {
+    width: 350px;
+    height: 350px;
+    object-fit: fill;
+    border-radius: 50%;
+}
