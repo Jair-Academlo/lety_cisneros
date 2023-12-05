@@ -5,6 +5,7 @@ import Presentacion from '../components/presentacion/Presentacion';
 import SobreMi from '../components/sobreMi/SobreMi';
 import Entrevistas from '../components/entrevistas/Entrevistas';
 import Libros from '../components/libros/Libros';
+import Cursos from '../components/cursos/Cursos';
 
 const Home = () => {
 	return (
@@ -16,6 +17,7 @@ const Home = () => {
 				<SobreMi />
 				<Entrevistas />
 				<Libros />
+				<Cursos />
 			</Container>
 		</>
 	);
