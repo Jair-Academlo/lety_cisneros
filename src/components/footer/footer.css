@@ -1,0 +1,55 @@
+.section-footer {
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+.section-footer #footer-redes-sociales {
+    width: 70%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
+
+.section-footer #footer-redes-sociales div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-footer #footer-redes-sociales div:hover {
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+.footer-redes-sociales-icons {
+    font-size: 1.3rem;
+    color: black;
+}
+
+
+.section-footer #footer-copyrigth {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 15px;
+}
+
+.section-footer #footer-copyrigth h6 {
+    font-size: 0.8rem;
+    font-weight: 600;
+
+}
