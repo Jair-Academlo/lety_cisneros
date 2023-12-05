@@ -29,5 +29,50 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	margin: 20px 0;
+}
+
+.div-imagen-libros-1 {
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.div-imagen-libros-1 img {
+	width: 200px;
+	height: 200px;
+	object-fit: fill;
+	border-radius: 10px;
+}
+
+.div-libros-descripcion-1 {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: left;
 	gap: 20px;
+}
+
+.div-libros-descripcion-1 div h2 {
+	font-size: 1rem;
+	font-weight: 600;
+	font-style: italic;
+	color: #fff;
+}
+
+.div-libros-descripcion-1 div p {
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+}
+
+.div-libros-descripcion-1 div button {
+	width: 120px;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	background-color: #414bb2;
+	color: #fff;
+	font-size: 0.8rem;
 }
