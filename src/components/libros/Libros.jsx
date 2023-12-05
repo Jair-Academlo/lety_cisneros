@@ -3,11 +3,11 @@ import './libros.css';
 const Libros = () => {
 	return (
 		<>
-			<section>
-				<div>
+			<section className='section-libros'>
+				<div id='section-libros-titulo'>
 					<h1>Informacion de libros</h1>
 				</div>
-				<div>
+				<div id='section-libros-descripcion'>
 					<div>
 						<div>
 							<img
@@ -40,7 +40,7 @@ const Libros = () => {
 						</div>
 					</div>
 				</div>
-				<div>
+				<div id='section-libros-descripcion-bloque-2'>
 					<div>
 						<div>
 							<img
