@@ -7,6 +7,7 @@ import Entrevistas from '../components/entrevistas/Entrevistas';
 import Libros from '../components/libros/Libros';
 import Cursos from '../components/cursos/Cursos';
 import ReservarSession from '../components/reservarSession/ReservarSession';
+import Footer from '../components/footer/Footer';
 
 const Home = () => {
 	return (
@@ -20,6 +21,7 @@ const Home = () => {
 				<Libros />
 				<Cursos />
 				<ReservarSession />
+				<Footer />
 			</Container>
 		</>
 	);
