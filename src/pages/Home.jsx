@@ -4,6 +4,7 @@ import Logos from '../components/logos/Logos';
 import Presentacion from '../components/presentacion/Presentacion';
 import SobreMi from '../components/sobreMi/SobreMi';
 import Entrevistas from '../components/entrevistas/Entrevistas';
+import Libros from '../components/libros/Libros';
 
 const Home = () => {
 	return (
@@ -14,6 +15,7 @@ const Home = () => {
 				<Logos />
 				<SobreMi />
 				<Entrevistas />
+				<Libros />
 			</Container>
 		</>
 	);
