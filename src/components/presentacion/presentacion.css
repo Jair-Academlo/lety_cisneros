@@ -14,18 +14,6 @@
 	align-items: left;
 }
 
-.section-presentacion div #div1-nombre {
-	font-size: 1.3rem;
-	letter-spacing: 5px;
-	text-transform: uppercase;
-	color: #fff;
-	font-weight: 700;
-}
-
-.section-presentacion div #div1-nombre span {
-	color: #2ecc71;
-}
-
 .section-presentacion div #div1-breve-descripcion {
 	font-size: 0.8rem;
 	letter-spacing: 0.8px;

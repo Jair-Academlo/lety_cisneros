@@ -5,9 +5,6 @@ const Presentacion = () => {
 		<>
 			<section className='section-presentacion'>
 				<div id='div1'>
-					<div id='div1-nombre'>
-						<span>Lety </span>Cisneros
-					</div>
 					<div id='div1-breve-descripcion'>
 						Ayudo a Lorem ipsum dolor sit amet consectetur
 						adipisicing elit. Eos animi itaque quae, beatae soluta
