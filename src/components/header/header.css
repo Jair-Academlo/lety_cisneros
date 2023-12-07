@@ -3,12 +3,11 @@
 	padding: 20px;
 	display: flex;
 	flex-direction: row;
-	justify-content: right;
-	gap: 20px;
+	justify-content: space-between;
 	align-items: center;
 }
 
-.section-presentacion div #div1-nombre {
+#div1-nombre {
 	font-size: 1.3rem;
 	letter-spacing: 5px;
 	text-transform: uppercase;
@@ -16,26 +15,33 @@
 	font-weight: 700;
 }
 
-.section-presentacion div #div1-nombre span {
+#div1-nombre span {
 	color: #2ecc71;
 }
 
-.section-header div {
+#div2-links-section-header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+#div2-links-section-header div {
 	height: 40px;
 }
 
-.section-header a {
+#div2-links-section-header div a {
 	color: white;
 	text-decoration: none;
 	font-size: 0.8rem;
 }
 
-.section-header div a:hover {
+#div2-links-section-header div a:hover {
 	color: black;
 	font-weight: 500;
 	transition: 0.3s;
 }
 
-.section-header div:hover {
+#div2-links-section-header div:hover {
 	border-bottom: 1px #54b689 solid;
 }

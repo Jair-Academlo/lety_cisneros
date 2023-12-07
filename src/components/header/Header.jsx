@@ -8,7 +8,7 @@ const Header = () => {
 				<div id='div1-nombre'>
 					<span>Lety </span>Cisneros
 				</div>
-				<div>
+				<div id='div2-links-section-header'>
 					<div>
 						<Link>Quien Soy</Link>
 					</div>
