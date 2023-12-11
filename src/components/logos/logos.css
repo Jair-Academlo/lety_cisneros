@@ -14,7 +14,7 @@
 	object-fit: fill;
 	border-radius: 20px;
 	opacity: 1;
-	animation: slideAnimation 30s linear infinite;
+	animation: slideAnimation 0s linear infinite;
 
 }
 
