@@ -6,14 +6,13 @@ const Presentacion = () => {
 			<section className='section-presentacion'>
 				<div id='div1'>
 					<div id='div1-breve-descripcion'>
-						Ayudo a Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Eos animi itaque quae, beatae soluta
-						debitis deleniti sequi aliquid nam similique nesciunt
-						blanditiis, voluptatem odit cumque eligendi
-						necessitatibus fugiat ea eum laudantium? Nemo fuga
-						aliquam dicta reprehenderit iusto. Accusamus doloremque
-						unde quaerat explicabo quis voluptatibus minima dolore,
-						ullam adipisci ab eos.
+						¡Hola! En esta página queremos apoyarte a encontrar el
+						sentido de tu vida y el para qué de tus habilidades, a
+						través de algunas herramientas para hacer frente a
+						etapas y circunstancias difíciles y que les encuentres a
+						estas la utilidad para tu crecimiento personal,
+						profesional y emocional. La felicidad es nuestro
+						objetivo no como un destino, sino como tu camino.
 					</div>
 					<div id='div1-buttom-contactame'>
 						<button>Contactame</button>
