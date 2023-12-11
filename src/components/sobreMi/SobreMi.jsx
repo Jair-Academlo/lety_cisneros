@@ -16,18 +16,18 @@ const SobreMi = () => {
 					<div>
 						<div>
 							<p>
-								<span>Hey! Soy Lety Cisneros ...</span> Lorem
-								ipsum dolor sit, amet consectetur adipisicing
-								elit. Officia amet explicabo iste repudiandae
-								aperiam soluta, perferendis saepe necessitatibus
-								suscipit dicta quae inventore aspernatur
-								ratione. Amet a aliquid deleniti officiis hic
-								quos facere libero commodi! Sunt ex alias
-								voluptatem, repudiandae nihil soluta a optio
-								dolor dolorum commodi veniam natus incidunt
-								molestiae ab minima porro suscipit voluptatibus
-								cupiditate fugit nobis sequi? Quasi fugiat at in
-								cumque maxime alias, adipisci iure esse sequi!
+								<span>Hey! Soy Lety Cisneros</span>
+								<br />
+								<br />
+								Estoy para ayudarte, soy Licenciada, Maestra y
+								Doctora en Derecho; también soy Master en
+								Psicología Holística y en Coaching Personal. Mi
+								misión es ayudar a miles de seres humanos que
+								desean una verdadera transformación en su vida;
+								soy Licenciada, Maestra y Doctora en Derecho,
+								además de que cuento con estudios como Master en
+								Psicología Holística y Master en Coaching
+								Personal.
 							</p>
 						</div>
 						<div>
