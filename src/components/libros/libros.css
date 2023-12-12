@@ -16,11 +16,10 @@
 }
 
 #section-libros-titulo h1 {
-	font-size: 1.3rem;
-	font-weight: 700;
-	letter-spacing: 1px;
-	font-style: italic;
-	color: #fff;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Metrophobic', sans-serif;
+	font-weight: 500;
 }
 
 #section-libros-descripcion {
@@ -63,16 +62,43 @@
 }
 
 .div-libros-descripcion-1 div p {
+	color: #fff;
 	font-size: 0.8rem;
 	letter-spacing: 1px;
 }
 
 .div-libros-descripcion-1 div button {
-	width: 120px;
+	display: flex;
+	align-items: center;
+	width: 100%;
 	height: 35px;
 	border: none;
 	border-radius: 5px;
 	background-color: #414bb2;
 	color: #fff;
 	font-size: 0.8rem;
+	padding: 0;
+
+}
+
+.div-libros-descripcion-1 div button a {
+
+	width: 100%;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 0.8 rem;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: #414bb2;
+	gap: 10px;
+}
+
+.div-libros-descripcion-1 div button a:hover {
+	background-color: #fdad46;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
 }
