@@ -1,6 +1,8 @@
+import { useNavigate } from 'react-router-dom';
 import './sobreMi.css';
 
 const SobreMi = () => {
+	const navigate = useNavigate();
 	return (
 		<>
 			<section className='section-sobre-mi'>
@@ -31,7 +33,13 @@ const SobreMi = () => {
 							</p>
 						</div>
 						<div>
-							<button>Conoce mi historia</button>
+							<button
+								onClick={() => {
+									navigate('/sobre-mi');
+								}}
+							>
+								Conoce mi historia
+							</button>
 						</div>
 					</div>
 				</div>
