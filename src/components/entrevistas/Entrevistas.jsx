@@ -11,19 +11,24 @@ const Entrevistas = () => {
 					</h1>
 				</div>
 				<div id='section-entrevistas-videos'>
-					<iframe
-						src='https://www.youtube.com/embed/tcEEDP74hIg?si=UIHWszysw6zF-vKo'
-						title='<h2>Mujeres Dreams Boss TV #04</h2>'
-						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-						allowfullscreen
-					></iframe>
-
-					<iframe
-						src='https://www.youtube.com/embed/r31bNz5-PY8?si=XZiSMOY_rRNcXOWa'
-						title='YouTube video player'
-						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-						allowfullscreen
-					></iframe>
+					<div>
+						<iframe
+							src='https://www.youtube.com/embed/tcEEDP74hIg?si=UIHWszysw6zF-vKo'
+							title='<h2>Mujeres Dreams Boss TV #04</h2>'
+							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+							allowfullscreen
+						></iframe>
+						<h2>Mujeres Dreams Boss TV #04</h2>
+					</div>
+					<div>
+						<iframe
+							src='https://www.youtube.com/embed/r31bNz5-PY8?si=XZiSMOY_rRNcXOWa'
+							title='YouTube video player'
+							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+							allowfullscreen
+						></iframe>
+						<h2>Si no lo registras, No es tuyo! </h2>
+					</div>
 				</div>
 				<div id='section-entrevistas-imagenes'>
 					<img

@@ -25,12 +25,23 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	margin-bottom: 30px;
+}
+
+#section-entrevistas-videos h2 {
+	color: #fc6265;
+	font-size: 1.5rem;
+	font-family: 'Metrophobic', sans-serif;
+	font-weight: 600;
+	text-align: center;
 }
 
 #section-entrevistas-videos iframe {
 	width: 400px;
 	height: 300px;
 	border-radius: 20px;
+	border: 1px #fc6265 solid;
+	padding: 5px;
 	margin: 20px 0;
 }
 
