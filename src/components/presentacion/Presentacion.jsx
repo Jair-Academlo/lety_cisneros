@@ -6,16 +6,22 @@ const Presentacion = () => {
 			<section className='section-presentacion'>
 				<div id='div1'>
 					<div id='div1-breve-descripcion'>
-						¡Hola! En esta página queremos apoyarte a encontrar el
-						sentido de tu vida y el para qué de tus habilidades, a
-						través de algunas herramientas para hacer frente a
-						etapas y circunstancias difíciles y que les encuentres a
-						estas la utilidad para tu crecimiento personal,
-						profesional y emocional. La felicidad es nuestro
-						objetivo no como un destino, sino como tu camino.
+						<h1>
+							Ayudo a emprendedores y empresarios a escalar sus
+							negocios a través de tecnología e historias.
+						</h1>
+						<p>
+							Si quieres saber qué mentoría o programa es el
+							indicado para ti, te regalos una sesión de
+							diagnostico. Nuestros programas arrancar a partir de
+							los $300 dólares americanos. Sería un gusto escuchar
+							de ti:
+						</p>
 					</div>
 					<div id='div1-buttom-contactame'>
-						<button>Contactame</button>
+						<button>
+							Si letty,¡Ayudame a triplicar mis ventas!{' '}
+						</button>
 					</div>
 				</div>
 				<div id='div3'>

@@ -52,10 +52,5 @@
 		transform: translateX(-400%);
 	}
 
-	91% {
-		opacity: 1;
-		transform: translateX(0%);
-	}
-
 
 }
