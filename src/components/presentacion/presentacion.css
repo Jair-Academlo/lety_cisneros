@@ -1,4 +1,5 @@
 .section-presentacion {
+	margin-top: 5rem;
 	width: 90%;
 	display: flex;
 	flex-direction: row;
@@ -17,12 +18,10 @@
 	align-items: left;
 }
 
-.section-presentacion div #div1-breve-descripcion {}
 
 .section-presentacion div #div1-breve-descripcion h1 {
 	color: #ffffff;
 	font-family: "Metropoli", Sans-serif;
-	font-size: 37px;
 	font-weight: 600;
 }
 

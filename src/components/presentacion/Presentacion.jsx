@@ -20,7 +20,7 @@ const Presentacion = () => {
 					</div>
 					<div id='div1-buttom-contactame'>
 						<button>
-							Si letty,¡Ayudame a triplicar mis ventas!{' '}
+							Si letty, ¡Ayudame a triplicar mis ventas!{' '}
 						</button>
 					</div>
 				</div>

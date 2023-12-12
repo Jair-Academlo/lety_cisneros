@@ -2,6 +2,10 @@
 	width: 100%;
 	padding: 20px;
 	display: flex;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
@@ -38,7 +42,7 @@
 }
 
 #div2-links-section-header div a:hover {
-	color: black;
+	color: #54b689;
 	font-weight: 500;
 	transition: 0.3s;
 }
