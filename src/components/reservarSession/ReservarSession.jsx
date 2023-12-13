@@ -1,3 +1,7 @@
+import { Link } from 'react-router-dom';
+import N1 from '../../imgs/perfil/1.png';
+import { FaArrowRight } from 'react-icons/fa';
+
 import './reservarSession.css';
 
 const ReservarSession = () => {
@@ -6,28 +10,35 @@ const ReservarSession = () => {
 			<section className='section-reservar-session'>
 				<div id='container-reservar-session'>
 					<div id='div-session-titulo'>
-						<h1>Titulo para reservar la session</h1>
+						<h1>¿Quieres profundizar sobre todos estos temas?</h1>
 					</div>
 					<div id='div-session-descripcion'>
-						Ayudo a Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Eos animi itaque quae, beatae soluta
-						debitis deleniti sequi aliquid nam similique nesciunt
-						blanditiis, voluptatem odit cumque eligendi
-						necessitatibus fugiat ea eum laudantium? Nemo fuga
-						aliquam dicta reprehenderit iusto. Accusamus doloremque
-						unde quaerat explicabo quis voluptatibus minima dolore,
-						ullam adipisci ab eos.
+						En una sesión podremos empezar juntos a descubrir las
+						razones por las que te encuentras en un estado de
+						tristeza o de insatisfacción, ya que esto puede deberse
+						a una variedad de factores, como el trabajo, las
+						relaciones, la salud o el dinero. Será importante
+						encontrar el o los factores que te aquejan para sentirte
+						deprimido.
+						<br />
+						Te mostraré cómo con 21 acciones podremos transformar
+						estas circunstancias y ayudarte a hacer una planeación
+						de vida y a encontrar la felicidad en ella.
 					</div>
 					<div id='div-session-button'>
-						<button>Reservar Session</button>
+						<button>
+							<Link
+								to={'https://wa.me/527222440536'}
+								target='blank'
+							>
+								Reservar Ahora! <FaArrowRight />
+							</Link>
+						</button>
 					</div>
 				</div>
 
 				<div id='div-session-bloque-2'>
-					<img
-						src='https://static.vecteezy.com/system/resources/previews/020/765/399/non_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg'
-						alt='profile'
-					/>
+					<img src={N1} alt='profile' />
 				</div>
 			</section>
 		</>

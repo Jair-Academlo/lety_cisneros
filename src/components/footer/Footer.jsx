@@ -6,6 +6,9 @@ const Footer = () => {
 	return (
 		<>
 			<section className='section-footer'>
+				<div id='siguenos-en'>
+					<p>Nuestras Redes Sociales:</p>
+				</div>
 				<div id='footer-redes-sociales'>
 					<div>
 						<FaFacebook className='footer-redes-sociales-icons' />
