@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Cormorant+Garamond:wght@300&family=Metrophobic&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
 .section-sobre-mi {
 	width: 100%;
 	display: flex;
@@ -5,10 +7,11 @@
 	justify-content: center;
 	align-items: center;
 	height: 400px;
+	font-family: 'Metrophobic', sans-serif;
 }
 
 #section-sobre-mi-div-1 {
-	width: 50%;
+	width: 45%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -31,7 +34,7 @@
 }
 
 #section-sobre-mi-div-2 {
-	width: 50%;
+	width: 55%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -47,13 +50,12 @@
 }
 
 #section-sobre-mi-div-2>div div p span {
-	color: #FDAD46;
+	color: #fdad46;
 	font-size: 35px;
 	font-weight: 500;
 }
 
 #section-sobre-mi-div-2>div div p {
-	font-family: "Metropoli", Sans-serif;
 	font-size: 15px;
 	font-weight: 400;
 	color: #fff;
