@@ -1,13 +1,13 @@
+import { Container } from 'react-bootstrap';
+import Section1 from '../components/SobreMI/section1/Section1';
 import '../styles/SobreMi.css';
 
 const SobreMi = () => {
 	return (
 		<>
-			<section className='section-page-sobre-mi'>
-				<div>
-					<h1>Aqui va todo sobre mi </h1>
-				</div>
-			</section>
+			<Container>
+				<Section1 />
+			</Container>
 		</>
 	);
 };
