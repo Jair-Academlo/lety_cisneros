@@ -10,7 +10,10 @@ const Header = () => {
 				</div>
 				<div id='div2-links-section-header'>
 					<div>
-						<Link>Quien Soy</Link>
+						<Link to={'/'}>Inicio</Link>
+					</div>
+					<div>
+						<Link to={'/sobre-mi'}>Quien Soy</Link>
 					</div>
 					<div>
 						<Link>Eventos y Conferencias</Link>
