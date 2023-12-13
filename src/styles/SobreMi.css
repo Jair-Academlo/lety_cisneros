@@ -1,0 +1,16 @@
+.section-page-sobre-mi {
+    width: 90%;
+    height: 100vh;
+}
+
+.section-page-sobre-mi div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.section-page-sobre-mi div h1 {
+    color: #fff;
+}

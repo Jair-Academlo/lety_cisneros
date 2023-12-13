@@ -1,7 +1,9 @@
+import '../styles/SobreMi.css';
+
 const SobreMi = () => {
 	return (
 		<>
-			<section>
+			<section className='section-page-sobre-mi'>
 				<div>
 					<h1>Aqui va todo sobre mi </h1>
 				</div>
