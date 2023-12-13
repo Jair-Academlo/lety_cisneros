@@ -1,17 +1,16 @@
 .section-presentacion {
 	margin-top: 5rem;
-	width: 90%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	height: 450px;
-	gap: 40px;
+	height: 600px;
+	gap: 50px;
+
 }
 
 .section-presentacion #div1 {
-	width: 60%;
-	padding-left: 20px;
+	width: 55%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -50,7 +49,7 @@
 }
 
 .section-presentacion #div3 {
-	width: 40%;
+	width: 45%;
 	display: flex;
 	flex-direction: row;
 	justify-content: right;
@@ -58,8 +57,8 @@
 }
 
 .section-presentacion #div3 img {
-	width: 350px;
-	height: 350px;
+	width: 450px;
+	height: 450px;
 	object-fit: fill;
 	border-radius: 50%;
 }

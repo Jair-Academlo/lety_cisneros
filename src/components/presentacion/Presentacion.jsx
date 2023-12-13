@@ -1,3 +1,4 @@
+import N1 from '../../imgs/perfil/1.png';
 import './presentacion.css';
 
 const Presentacion = () => {
@@ -25,10 +26,7 @@ const Presentacion = () => {
 					</div>
 				</div>
 				<div id='div3'>
-					<img
-						src='https://static.vecteezy.com/system/resources/previews/020/765/399/non_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg'
-						alt='profile'
-					/>
+					<img src={N1} alt='profile' />
 				</div>
 			</section>
 		</>
