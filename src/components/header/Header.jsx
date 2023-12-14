@@ -10,10 +10,24 @@ const Header = () => {
 				</div>
 				<div id='div2-links-section-header'>
 					<div>
-						<Link to={'/'}>Inicio</Link>
+						<Link
+							to={'/'}
+							onClick={() => {
+								window.scrollTo(0, 0);
+							}}
+						>
+							Inicio
+						</Link>
 					</div>
 					<div>
-						<Link to={'/sobre-mi'}>Quien Soy</Link>
+						<Link
+							to={'/sobre-mi'}
+							onClick={() => {
+								window.scrollTo(0, 0);
+							}}
+						>
+							Quien Soy
+						</Link>
 					</div>
 					<div>
 						<Link>Eventos y Conferencias</Link>
