@@ -3,8 +3,13 @@ import './section4.css';
 const Section4 = () => {
 	return (
 		<>
-			<section className='section-1-acerca-de-mi'>
-				<div className='section-1-acerca-de-mi-div-1'>
+			<section className='section-4-acerca-de-mi'>
+				<div className='section-4-acerca-de-mi-div-1'>
+					<img />
+					<img />
+					<img />
+				</div>
+				<div className='section-4-acerca-de-mi-div-2'>
 					<h1>Experiencia Profesional Destacada</h1>
 					<div>
 						<h2>Coordinadora de Posgrado</h2>
@@ -96,9 +101,6 @@ const Section4 = () => {
 							</li>
 						</ul>
 					</div>
-				</div>
-				<div className='section-1-acerca-de-mi-div-2'>
-					<img />
 				</div>
 			</section>
 		</>

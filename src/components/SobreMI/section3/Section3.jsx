@@ -34,7 +34,7 @@ const Section3 = () => {
 						</ul>
 					</div>
 					<div>
-						<h2>Posdoctorado en Derecho</h2>
+						<h2>Post-doctorado en Derecho</h2>
 						<ul>
 							<li>Escuela de Posgrados en Derecho</li>
 						</ul>
@@ -56,6 +56,7 @@ const Section3 = () => {
 				</div>
 
 				<div className='section-3-acerca-de-mi-div-2'>
+					<img />
 					<img />
 				</div>
 			</section>
