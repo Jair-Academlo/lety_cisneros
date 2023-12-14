@@ -1,7 +1,4 @@
 import N1 from '../../../imgs/perfil/1.png';
-import N2 from '../../../imgs/logos/N2.png';
-import N3 from '../../../imgs/logos/N3.png';
-import N4 from '../../../imgs/logos/N4.png';
 import './section1.css';
 
 const Section1 = () => {
