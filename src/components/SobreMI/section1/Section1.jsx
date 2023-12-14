@@ -3,8 +3,8 @@ import './section1.css';
 const Section1 = () => {
 	return (
 		<>
-			<section>
-				<div>
+			<section className='section-1-acerca-de-mi'>
+				<div className='section-1-acerca-de-mi-div-1'>
 					<h1>Hola, esta soy yo...</h1>
 					<article>
 						<p>
@@ -40,7 +40,7 @@ const Section1 = () => {
 						</p>
 					</article>
 				</div>
-				<div>
+				<div className='section-1-acerca-de-mi-div-2'>
 					<p>imagen</p>
 				</div>
 			</section>
