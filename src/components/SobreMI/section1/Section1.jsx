@@ -1,3 +1,7 @@
+import N1 from '../../../imgs/perfil/1.png';
+import N2 from '../../../imgs/logos/N2.png';
+import N3 from '../../../imgs/logos/N3.png';
+import N4 from '../../../imgs/logos/N4.png';
 import './section1.css';
 
 const Section1 = () => {
@@ -41,7 +45,7 @@ const Section1 = () => {
 					</article>
 				</div>
 				<div className='section-1-acerca-de-mi-div-2'>
-					<p>imagen</p>
+					<img src={N1} alt='image-acerca-de-mi-1' />
 				</div>
 			</section>
 		</>
