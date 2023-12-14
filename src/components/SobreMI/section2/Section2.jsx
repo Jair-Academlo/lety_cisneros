@@ -1,3 +1,4 @@
+import libro1 from '../../../imgs/libros/imagen1.jpg';
 import './section2.css';
 
 const Section2 = () => {
@@ -5,7 +6,7 @@ const Section2 = () => {
 		<>
 			<section className='section-2-acerca-de-mi'>
 				<div className='section-2-acerca-de-mi-div-1'>
-					<img />
+					<img src={libro1} />
 				</div>
 				<div className='section-2-acerca-de-mi-div-2'>
 					<h1>Actividades Literarias</h1>
