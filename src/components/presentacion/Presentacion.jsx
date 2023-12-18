@@ -4,6 +4,7 @@ import './presentacion.css';
 const Presentacion = () => {
 	return (
 		<>
+			<section className='margin-sectio-presentacion'></section>
 			<section className='section-presentacion'>
 				<div id='div1'>
 					<div id='div1-breve-descripcion'>

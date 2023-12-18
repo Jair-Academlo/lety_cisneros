@@ -52,3 +52,40 @@
 #div2-links-section-header div:hover {
 	border-bottom: 1px #54b689 solid;
 }
+
+.menu-icon {
+	display: none;
+	cursor: pointer;
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+	#div2-links-section-header {
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		top: 80px;
+		left: 0;
+		right: 0;
+		background-color: rgba(1, 1, 1, 0.9);
+		z-index: 99;
+	}
+
+	#div2-links-section-header div {
+		padding-left: 20px;
+		width: 200px;
+	}
+
+	#div2-links-section-header div a {
+		width: 150px;
+	}
+
+	#div2-links-section-header.show-menu {
+		display: flex;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+}
