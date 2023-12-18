@@ -104,3 +104,24 @@
 	font-weight: 700;
 	transition: 0.5s;
 }
+
+
+@media screen and (max-width: 1000px) {
+	#section-libros-descripcion {
+		width: 90%;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		margin: 20px 0;
+		gap: 40px;
+	}
+
+	#section-libros-descripcion div {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+}
