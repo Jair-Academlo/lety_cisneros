@@ -9,15 +9,16 @@ const Presentacion = () => {
 				<div id='div1'>
 					<div id='div1-breve-descripcion'>
 						<h1>
-							Ayudo a emprendedores y empresarios a escalar sus
-							negocios a través de tecnología e historias.
+							Ayudo a emprendedores, negocios y empresarios a
+							impulsarlos a alcanzar sus metas en etapas difíciles
+							a través de herramientas y acompañamiento necesario.
 						</h1>
 						<p>
-							Si quieres saber qué mentoría o programa es el
-							indicado para ti, te regalos una sesión de
-							diagnostico. Nuestros programas arrancar a partir de
-							los $300 dólares americanos. Sería un gusto escuchar
-							de ti:
+							Si estás enfrentando desafíos, atravesando etapas
+							difíciles o simplemente buscas un impulso para
+							alcanzar tus metas, este servicio puede
+							proporcionarte las herramientas y el acompañamiento
+							necesario. Sería un gusto escuchar de ti y ayudarte.
 						</p>
 					</div>
 					<div id='div1-buttom-contactame'>
