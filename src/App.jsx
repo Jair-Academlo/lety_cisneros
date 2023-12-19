@@ -1,9 +1,9 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import './App.css';
 import SobreMi from './pages/SobreMi';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
+import './App.css';
 
 const App = () => {
 	return (

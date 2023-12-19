@@ -106,7 +106,7 @@
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 350px) and (max-width: 1000px) {
 	#section-libros-descripcion {
 		width: 90%;
 		display: flex;
