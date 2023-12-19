@@ -13,13 +13,15 @@ const Logos = () => {
 
 	return (
 		<>
-			<section className='section-logos'>
-				{logos.map((logo, index) => (
-					<div key={index}>
-						<img src={logo} alt={`imagen-${index}`} />
-					</div>
-				))}
-			</section>
+			<div className='container-section-logos'>
+				<section className='section-logos'>
+					{logos.map((logo, index) => (
+						<div key={index}>
+							<img src={logo} alt={`imagen-${index}`} />
+						</div>
+					))}
+				</section>
+			</div>
 		</>
 	);
 };
