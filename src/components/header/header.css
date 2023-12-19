@@ -1,5 +1,5 @@
 .section-header {
-	width: 90%;
+	width: 100%;
 	padding: 20px;
 	display: flex;
 	position: fixed;
@@ -29,6 +29,8 @@
 #div2-links-section-header {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
 	gap: 20px;
 }
@@ -68,7 +70,7 @@
 		top: 80px;
 		left: 0;
 		right: 0;
-		background-color: rgba(1, 1, 1, 0.9);
+		background-color: rgba(1, 1, 1, 0.3);
 		z-index: 99;
 	}
 
@@ -79,6 +81,8 @@
 
 	#div2-links-section-header div a {
 		width: 150px;
+		padding: 0;
+		margin: 0;
 	}
 
 	#div2-links-section-header.show-menu {
