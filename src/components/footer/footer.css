@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Cormorant+Garamond:wght@300&family=Metrophobic&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 .section-footer {
-    width: 90%;
+    width: 100%;
     height: 20vh;
     display: flex;
     flex-direction: row;
@@ -73,4 +73,41 @@
     font-size: 0.8rem;
     font-weight: 600;
 
+}
+
+@media screen and (min-width: 350px) and (max-width: 1000px) {
+    .section-footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        gap: 30px;
+
+    }
+
+    .section-footer #siguenos-en {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-footer #footer-redes-sociales {
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        gap: 15px;
+        padding-left: 0;
+    }
+
+    .section-footer #footer-copyrigth {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
 }
