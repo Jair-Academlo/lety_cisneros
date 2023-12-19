@@ -21,6 +21,7 @@ const ReservarSession = () => {
 						encontrar el o los factores que te aquejan para sentirte
 						deprimido.
 						<br />
+						<br />
 						Te mostraré cómo con 21 acciones podremos transformar
 						estas circunstancias y ayudarte a hacer una planeación
 						de vida y a encontrar la felicidad en ella.

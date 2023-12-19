@@ -3,8 +3,8 @@
 .section-reservar-session {
     display: flex;
     flex-direction: row;
-    height: 450px;
     font-family: 'Metrophobic', sans-serif;
+    margin: 50px 0;
 }
 
 .section-reservar-session #container-reservar-session {
@@ -79,4 +79,44 @@
     height: 350px;
     object-fit: fill;
     border-radius: 50%;
+}
+
+@media screen and (min-width: 350px) and (max-width: 1000px) {
+
+    .section-reservar-session {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        font-family: 'Metrophobic', sans-serif;
+        gap: 30px;
+    }
+
+    .section-reservar-session #container-reservar-session {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .section-reservar-session div #div-session-descripcion {
+        text-align: left;
+    }
+
+    .section-reservar-session div #div-session-button button {
+        width: 250px;
+    }
+
+    .section-reservar-session div #div-session-button button a {
+        width: 250px;
+    }
+
+    .section-reservar-session #div-session-bloque-2 img {
+        width: 250px;
+        height: 250px;
+        object-fit: contain;
+        border-radius: 50%;
+    }
 }
