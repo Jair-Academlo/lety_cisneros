@@ -1,4 +1,3 @@
-import { Container } from 'react-bootstrap';
 import Logos from '../components/logos/Logos';
 import Presentacion from '../components/presentacion/Presentacion';
 import SobreMi from '../components/sobreMi/SobreMi';
@@ -10,15 +9,13 @@ import ReservarSession from '../components/reservarSession/ReservarSession';
 const Home = () => {
 	return (
 		<>
-			<Container>
-				<Presentacion />
-				<Logos />
-				<SobreMi />
-				<Entrevistas />
-				<Libros />
-				<Cursos />
-				<ReservarSession />
-			</Container>
+			<Presentacion />
+			<Logos />
+			<SobreMi />
+			<Entrevistas />
+			<Libros />
+			<Cursos />
+			<ReservarSession />
 		</>
 	);
 };
