@@ -55,7 +55,7 @@ const Libros = () => {
 										'https://www.amazon.com.mx/NO-CAMBIES-TRANSF%C3%93RMATE-emociones-transformar-ebook/dp/B082NXSH5M/ref=sr_1_2?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14GXNV6CNNLSP&keywords=NO+CAMBIES+TRANSFORMATE&qid=1702061373&sprefix=no+cambies+transformate%2Caps%2C245&sr=8-2'
 									}
 								>
-									ver mas <FaArrowRight />
+									Ver mas <FaArrowRight />
 								</Link>{' '}
 							</button>
 						</div>
@@ -97,7 +97,7 @@ const Libros = () => {
 										'https://www.amazon.com.mx/Mujeres-Dreams-Boss-Abogadas-Casaponsa-ebook/dp/B0BT7LXHBF/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=N6DQF9GLQ4UA&keywords=MUJERES+DREAMS+BOSS+ABOGADAS&qid=1702061440&sprefix=mujeres+dreams+boss+abogadas%2Caps%2C162&sr=8-1'
 									}
 								>
-									ver mas <FaArrowRight />
+									Ver mas <FaArrowRight />
 								</Link>{' '}
 							</button>
 						</div>
