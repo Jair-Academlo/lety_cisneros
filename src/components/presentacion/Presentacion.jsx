@@ -14,16 +14,17 @@ const Presentacion = () => {
 							a través de herramientas y acompañamiento necesario.
 						</h1>
 						<p>
-							Si estás enfrentando desafíos, atravesando etapas
-							difíciles o simplemente buscas un impulso para
-							alcanzar tus metas, este servicio puede
-							proporcionarte las herramientas y el acompañamiento
-							necesario. Sería un gusto escuchar de ti y ayudarte.
+							Si estás enfrentando desafíos personales o
+							empresariales o no estás logrando alcanzar tus
+							metas, te regalamos una sesión de mentoría para que
+							puedas conocer cómo las herramientas necesarias y el
+							acompañamiento pueden ayudarte a lograr tus
+							objetivos.
 						</p>
 					</div>
 					<div id='div1-buttom-contactame'>
 						<button>
-							Si letty, ¡Ayudame a triplicar mis ventas!{' '}
+							Si Lety, ¡Ayúdame a lograr mis objetivos!
 						</button>
 					</div>
 				</div>
