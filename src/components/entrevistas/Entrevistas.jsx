@@ -14,8 +14,8 @@ const Entrevistas = () => {
 			<section className='section-entrevistas'>
 				<div id='section-entrevistas-titulo'>
 					<h1>
-						He entrevistado a grandes líderes mundiales, ve algunas
-						de las entrevistas
+						Hemos colaborado en algunos medios de comunicación, ve
+						algunas de las entrevistas
 					</h1>
 				</div>
 				<div id='section-entrevistas-videos'>
