@@ -110,4 +110,8 @@
         align-items: center;
         gap: 15px;
     }
+
+    .section-footer #footer-copyrigth h6 {
+        padding-left: 0;
+    }
 }
