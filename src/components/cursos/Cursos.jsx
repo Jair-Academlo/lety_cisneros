@@ -5,7 +5,10 @@ const Cursos = () => {
 		<>
 			<section className='section-cursos'>
 				<div id='section-cursos-titulo'>
-					<h1>Autora del curso: Reclama tu derecho a la felicidad</h1>
+					<h1>
+						Autora de la conferencia: Reclama tu derecho a la
+						felicidad
+					</h1>
 				</div>
 				<div id='section-cursos-imagenes'>
 					<img
