@@ -45,7 +45,14 @@ const Header = () => {
 						</Link>
 					</div>
 					<div>
-						<Link>Eventos y Conferencias</Link>
+						<Link
+							to={'/eventos'}
+							onClick={() => {
+								window.scrollTo(0, 0);
+							}}
+						>
+							Eventos y Conferencias
+						</Link>
 					</div>
 					<div>
 						<Link>Blog</Link>

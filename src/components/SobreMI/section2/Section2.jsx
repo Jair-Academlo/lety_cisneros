@@ -21,7 +21,7 @@ const Section2 = () => {
 							publicaciones durante 2021 y 2022.
 						</li>
 						<li>
-							Coordinadora del libro &qout;El Instituto de la
+							Coordinadora del libro &quot;El Instituto de la
 							Defensoría Pública del Estado de México en el
 							Sexenio del Fortalecimiento al Acceso a la
 							Justicia&quot;, publicado en julio de 2023.
