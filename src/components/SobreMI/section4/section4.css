@@ -20,7 +20,6 @@
 
 }
 
-
 .section-4-acerca-de-mi-div-2 h1 {
     color: #fdad46;
     font-size: 35px;
@@ -67,4 +66,36 @@
     height: 300px;
     object-fit: fill;
 
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 1000px) {
+    .section-4-acerca-de-mi {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        gap: 30px;
+    }
+
+    .section-4-acerca-de-mi-div-2 {
+        width: 90%;
+    }
+
+    .section-4-acerca-de-mi-div-2 div h2 {
+        width: 100%;
+        text-align: left;
+    }
+
+    .section-4-acerca-de-mi-div-2 div p {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .section-4-acerca-de-mi-div-2 ul li {
+        text-align: left;
+        padding-left: 10px;
+    }
 }
