@@ -1,11 +1,13 @@
 .container-section-logos {
-	width: 90%;
+	width: 100%;
 	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .section-logos {
 	margin: 30px 0;
-	width: 100%;
+	width: 90%;
 	height: 300px;
 	display: flex;
 	justify-content: flex-start;
