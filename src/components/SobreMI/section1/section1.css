@@ -52,4 +52,12 @@
         align-items: center;
         gap: 30px;
     }
+
+    .section-1-acerca-de-mi-div-1 {
+        width: 90%;
+    }
+
+    .section-1-acerca-de-mi-div-1 article p {
+        text-align: left;
+    }
 }
