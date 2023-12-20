@@ -60,3 +60,31 @@
     object-fit: fill;
 
 }
+
+@media screen and (min-width: 350px) and (max-width: 1000px) {
+    .section-3-acerca-de-mi {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-3-acerca-de-mi-div-1 {
+        width: 90%;
+    }
+
+    .section-3-acerca-de-mi-div-1 div h2 {
+        width: 100%;
+        text-align: left;
+    }
+
+    .section-3-acerca-de-mi-div-1 ul li {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .section-3-acerca-de-mi-div-2 {
+        margin-top: 30px;
+    }
+}
