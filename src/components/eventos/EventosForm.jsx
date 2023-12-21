@@ -9,7 +9,6 @@ const EventosForm = () => {
 					siguiente formulario:
 				</h1>
 				<form
-					target='blank'
 					action='https://formsubmit.co/ddefd7bf16628e1b7409782bd58e9350'
 					method='POST'
 					className='section-form-eventos-form'

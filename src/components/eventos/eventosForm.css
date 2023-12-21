@@ -78,3 +78,16 @@ textarea:hover {
 .section-form-eventos-form div button:hover {
     background-color: #2ecc71;
 }
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    .section-form-eventos-form div label {
+        width: 80%;
+
+    }
+
+    .section-form-eventos-form div input,
+    textarea {
+        width: 80%;
+
+    }
+}
