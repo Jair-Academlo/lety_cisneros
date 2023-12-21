@@ -55,3 +55,21 @@
     object-fit: fill;
 
 }
+
+@media screen and (min-width: 350px) and (max-width: 1000px) {
+    .cargos-actuales-acerca-de-mi {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Metrophobic', sans-serif;
+    }
+
+    .cargos-actuales-acerca-de-mi-div-2 img {
+        width: 200px;
+        height: 200px;
+        object-fit: fill;
+
+    }
+}
