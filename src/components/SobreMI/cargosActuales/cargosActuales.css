@@ -1,0 +1,57 @@
+.cargos-actuales-acerca-de-mi {
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Metrophobic', sans-serif;
+}
+
+.cargos-actuales-acerca-de-mi-div-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 60%;
+}
+
+
+.cargos-actuales-acerca-de-mi-div-1 h1 {
+    color: #fdad46;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.cargos-actuales-acerca-de-mi-div-1 div h2 {
+    background: linear-gradient(30deg, rgba(252, 98, 101, 1) 0%, rgba(252, 114, 116, 1) 47%, rgba(252, 176, 69, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.cargos-actuales-acerca-de-mi-div-1 ul li {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.cargos-actuales-acerca-de-mi-div-2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.cargos-actuales-acerca-de-mi-div-2 img {
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+
+}
