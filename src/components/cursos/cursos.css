@@ -13,7 +13,7 @@
 #section-cursos-titulo {
 	width: 90%;
 	display: inline-flex;
-	justify-content: left;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -37,10 +37,11 @@
 }
 
 #section-cursos-imagenes img {
-	width: 200px;
-	height: 200px;
+	width: 600px;
+	height: 400px;
 	object-fit: fill;
 	border-radius: 10px;
+	margin-bottom: 30px;
 }
 
 #section-cursos-button {
