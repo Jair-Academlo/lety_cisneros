@@ -1,13 +1,16 @@
 import './section4.css';
+import N1 from '../../../imgs/sobre-mi/trascedencia1.jpeg';
+import N2 from '../../../imgs/sobre-mi/transcendencia4.jpeg';
+import N3 from '../../../imgs/sobre-mi/trascendencia3.jpeg';
 
 const Section4 = () => {
 	return (
 		<>
 			<section className='section-4-acerca-de-mi'>
 				<div className='section-4-acerca-de-mi-div-1'>
-					<img />
-					<img />
-					<img />
+					<img src={N1} alt='imagen-profesional' />
+					<img src={N2} alt='imagen-profesional' />
+					<img src={N3} alt='imagen-profesional' />
 				</div>
 				<div className='section-4-acerca-de-mi-div-2'>
 					<h1>Experiencia Profesional Destacada</h1>
