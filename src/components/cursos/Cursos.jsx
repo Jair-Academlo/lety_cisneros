@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { FaArrowRight } from 'react-icons/fa';
 import './cursos.css';
 
 const Cursos = () => {
@@ -30,7 +31,7 @@ const Cursos = () => {
 						to='https://hotmart.com/es/marketplace/productos/reclama-tu-derecho-a-la-felicidad/N89371405H'
 						target='blank'
 					>
-						Ir a la conferencia
+						Ir a la conferencia <FaArrowRight />
 					</Link>
 				</div>
 			</section>

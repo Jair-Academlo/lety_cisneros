@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Cormorant+Garamond:wght@300&family=Metrophobic&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
 .section-cursos {
 	display: flex;
 	flex-direction: column;
@@ -5,6 +7,7 @@
 	align-items: center;
 	gap: 50px;
 	margin: 30px 0;
+	font-family: 'Metrophobic', sans-serif;
 }
 
 #section-cursos-titulo {
@@ -41,21 +44,39 @@
 }
 
 #section-cursos-button {
-	width: 90%;
-	display: inline-flex;
-	justify-content: center;
+	display: flex;
 	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	background-color: #414bb2;
+	color: #fff;
+	font-size: 0.8rem;
+	padding: 0;
 }
 
-#section-cursos-button button a {
-	width: 200px;
-	height: 35px;
-	border: none;
-	border-radius: 10px;
+#section-cursos-button a {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: #fff;
-	background-color: #414bb2;
-	font-size: 0.8rem;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: 600;
 	text-decoration: none;
+	background-color: #414bb2;
+	gap: 10px;
+}
+
+#section-cursos-button a:hover {
+	background-color: #fdad46;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
 }
 
 
