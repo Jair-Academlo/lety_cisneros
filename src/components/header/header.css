@@ -51,6 +51,10 @@
 	transition: 0.3s;
 }
 
+:focus {
+	outline: none;
+}
+
 #div2-links-section-header div:hover {
 	border-bottom: 1px #54b689 solid;
 }
