@@ -20,97 +20,97 @@ const EventosForm = () => {
 						<input type='date' name='fecha' id='fecha' />
 					</div>
 					<div>
-						<label htmlFor='nombre'>Nombre del encargado:</label>
 						<input
 							type='text'
 							name='name'
 							id='nombre'
 							placeholder='Nombre'
 						/>
+						<label htmlFor='nombre'>Nombre del encargado:</label>
 					</div>
 					<div>
-						<label htmlFor='email'>Email:</label>
 						<input
 							type='email'
 							name='email'
 							placeholder='Email Address'
 							required
 						/>
+						<label htmlFor='email'>Email:</label>
 					</div>
 					<div>
-						<label htmlFor='asunto'>Asunto:</label>
 						<input
 							type='text'
 							id='asunto'
 							name='asunto'
 							placeholder='Asunto'
 						/>
+						<label htmlFor='asunto'>Asunto:</label>
 					</div>
 					<div>
-						<label htmlFor='telefono'>Telefono:</label>
 						<input
 							type='text'
 							name='telefono'
 							id='telefono'
 							placeholder='telefono'
 						/>
+						<label htmlFor='telefono'>Telefono:</label>
 					</div>
 					<div>
-						<label htmlFor='foro'>Tipo de foro:</label>
 						<input
 							type='text'
 							name='foro'
 							id='foro'
 							placeholder='foro'
 						/>
+						<label htmlFor='foro'>Tipo de foro:</label>
 					</div>
 					<div>
-						<label htmlFor='personas'>Número de personas:</label>
 						<input
 							type='text'
 							name='personas'
 							id='personas'
 							placeholder=' personas'
 						/>
+						<label htmlFor='personas'>Número de personas:</label>
 					</div>
 					<div>
-						<label htmlFor='ciudad'>Ciudad:</label>
 						<input
 							type='text'
 							name='ciudad'
 							id='ciudad'
 							placeholder='ciudad'
 						/>
+						<label htmlFor='ciudad'>Ciudad:</label>
 					</div>
 					<div>
-						<label htmlFor='estado'>Estado:</label>
 						<input
 							type='text'
 							name='estado'
 							id='estado'
 							placeholder='estado'
 						/>
+						<label htmlFor='estado'>Estado:</label>
 					</div>
 					<div>
-						<label htmlFor='lugar'>
-							Cuentan con algún lugar o sin lugar para la
-							conferencia:
-						</label>
 						<input
 							type='text'
 							name='lugar'
 							id='lugar'
 							placeholder='lugar'
 						/>
+						<label htmlFor='lugar'>
+							Cuentan con algún lugar o sin lugar para la
+							conferencia:
+						</label>
 					</div>
 					<div>
-						<label htmlFor='modalidad'>Presencial o Virtual:</label>
 						<input
 							type='text'
 							name='modalidad'
 							id='modalidad'
 							placeholder='modalidad'
 						/>
+						<label htmlFor='modalidad'>Presencial o Virtual:</label>
 					</div>
 					<div>
 						<button type='submit'> Enviar </button>
