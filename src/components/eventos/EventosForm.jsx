@@ -13,12 +13,12 @@ const EventosForm = () => {
 					method='POST'
 					className='section-form-eventos-form'
 				>
-					<div>
+					{/* <div>
 						<label htmlFor='fecha'>
 							Fecha tentativa día del evento:
 						</label>
 						<input type='date' name='fecha' id='fecha' />
-					</div>
+					</div> */}
 					<div>
 						<input
 							type='text'
@@ -80,7 +80,7 @@ const EventosForm = () => {
 							id='ciudad'
 							placeholder='ciudad'
 						/>
-						<label htmlFor='ciudad'>Ciudad:</label>
+						<label htmlFor='ciudad'>Ciudad</label>
 					</div>
 					<div>
 						<input
@@ -89,7 +89,7 @@ const EventosForm = () => {
 							id='estado'
 							placeholder='estado'
 						/>
-						<label htmlFor='estado'>Estado:</label>
+						<label htmlFor='estado'>Estado</label>
 					</div>
 					<div>
 						<input
@@ -99,8 +99,7 @@ const EventosForm = () => {
 							placeholder='lugar'
 						/>
 						<label htmlFor='lugar'>
-							Cuentan con algún lugar o sin lugar para la
-							conferencia:
+							¿Cuenta con algún lugar para la conferencia?
 						</label>
 					</div>
 					<div>
@@ -110,7 +109,7 @@ const EventosForm = () => {
 							id='modalidad'
 							placeholder='modalidad'
 						/>
-						<label htmlFor='modalidad'>Presencial o Virtual:</label>
+						<label htmlFor='modalidad'>Presencial o Virtual</label>
 					</div>
 					<div>
 						<button type='submit'> Enviar </button>
