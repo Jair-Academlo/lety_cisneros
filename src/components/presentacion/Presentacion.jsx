@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import N1 from '../../imgs/perfil/1.png';
 import './presentacion.css';
 
@@ -23,9 +24,9 @@ const Presentacion = () => {
 						</p>
 					</div>
 					<div id='div1-buttom-contactame'>
-						<button>
-							Si Lety, ¡Ayúdame a lograr mis objetivos!
-						</button>
+						<Link to={'https://wa.me/527222440536'} target='blank'>
+							Si Lety, ¡Ayúdame a lograr mis objetivos!{' '}
+						</Link>
 					</div>
 				</div>
 				<div id='div3'>

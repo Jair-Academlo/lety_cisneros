@@ -41,7 +41,7 @@
 	line-height: 1.4em;
 }
 
-.section-presentacion div #div1-buttom-contactame button {
+.section-presentacion div #div1-buttom-contactame a {
 	width: 100%;
 	padding: 10px 0;
 	font-size: 1.2rem;
@@ -50,9 +50,11 @@
 	border-radius: 10px;
 	color: #fff;
 	background-color: #414bb2;
+	padding: 10px;
+	text-decoration: none;
 }
 
-.section-presentacion div #div1-buttom-contactame button:hover {
+.section-presentacion div #div1-buttom-contactame a:hover {
 	background-color: #fdad46;
 	color: black;
 	font-weight: 700;

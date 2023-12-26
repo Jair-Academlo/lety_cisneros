@@ -47,7 +47,7 @@
 	align-items: center;
 }
 
-#section-cursos-button button {
+#section-cursos-button button a {
 	width: 200px;
 	height: 35px;
 	border: none;
@@ -55,6 +55,7 @@
 	color: #fff;
 	background-color: #414bb2;
 	font-size: 0.8rem;
+	text-decoration: none;
 }
 
 

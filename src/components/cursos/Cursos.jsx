@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './cursos.css';
 
 const Cursos = () => {
@@ -25,7 +26,12 @@ const Cursos = () => {
 					/>
 				</div>
 				<div id='section-cursos-button'>
-					<button> Ir al curso</button>
+					<Link
+						to='https://hotmart.com/es/marketplace/productos/reclama-tu-derecho-a-la-felicidad/N89371405H'
+						target='blank'
+					>
+						Ir a la conferencia
+					</Link>
 				</div>
 			</section>
 		</>
