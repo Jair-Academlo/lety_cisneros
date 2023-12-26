@@ -1,4 +1,5 @@
 import './cargosActuales.css';
+import N1 from '../../../imgs/sobre-mi/cargo-actual.jpeg';
 
 const CargosActuales = () => {
 	return (
@@ -35,7 +36,7 @@ const CargosActuales = () => {
 					</div>
 				</div>
 				<div className='cargos-actuales-acerca-de-mi-div-2'>
-					<img />
+					<img src={N1} alt='cargo-actual' />
 				</div>
 			</section>
 		</>

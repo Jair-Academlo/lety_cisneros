@@ -1,4 +1,4 @@
-import libro1 from '../../../imgs/libros/imagen1.jpg';
+import libro1 from '../../../imgs/sobre-mi/best-seller.jpeg';
 import './section2.css';
 
 const Section2 = () => {
