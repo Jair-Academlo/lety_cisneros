@@ -34,10 +34,6 @@
 
 
 .section-form-eventos-form div {
-    /*    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; */
     display: inline-flex;
     position: relative;
     height: 45px;
@@ -47,11 +43,6 @@
 }
 
 .section-form-eventos-form div label {
-    /*  width: 50%;
-    text-align: left;
-    font-size: 1rem;
-    color: #fff;
-    margin: 20px 0; */
     position: absolute;
     top: 10px;
     left: 20px;
@@ -64,12 +55,6 @@
 }
 
 .section-form-eventos-form div input {
-    /*    width: 50%;
-    padding: 8px 10px;
-    text-align: left;
-    font-size: 0.9rem;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.2); */
     display: block;
     position: absolute;
     color: #fff;
@@ -86,13 +71,10 @@
     z-index: 1;
 }
 
-
-/* Cambia el color del icono en algunos navegadores */
 input[type="date"]::-webkit-calendar-picker-indicator {
     filter: invert(1);
 }
 
-/* Cambia el color del icono en Firefox */
 input[type="date"]::-moz-calendar-picker-indicator {
     filter: invert(1);
 }
@@ -183,15 +165,197 @@ textarea:hover {
     background-color: #2ecc71;
 }
 
-@media screen and (min-width: 350px) and (max-width: 600px) {
+@media screen and (min-width: 500px) and (max-width: 800px) {
+
+    .section-form-eventos-form div {
+        width: 100% !important;
+        display: inline-flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
     .section-form-eventos-form div label {
-        width: 80%;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        text-align: left;
+        font-size: 1rem;
+        color: #fff;
+        margin: 20px 0;
 
     }
 
-    .section-form-eventos-form div input,
-    textarea {
-        width: 80%;
+    .section-form-eventos-form div input {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding: 8px 10px;
+        text-align: left;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.2);
+        top: 20px;
 
     }
+
+    .div-textarea-asunto label {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        text-align: left;
+        font-size: 1rem;
+        color: #fff;
+        margin: 20px 0;
+    }
+
+    .div-textarea-asunto {
+        width: 98% !important;
+        margin-bottom: 30px !important;
+        position: relative;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .div-textarea-asunto textarea {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        padding: 15px 10px;
+        text-align: left;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .section-form-eventos-form div textarea::placeholder {
+        color: transparent;
+    }
+
+    .section-form-eventos-form div textarea:focus {
+        outline: 1px solid #2ecc71;
+        border: none;
+    }
+
+    .section-form-eventos-form div textarea:focus+label,
+    .section-form-eventos-form div textarea:not(:placeholder-shown)+label {
+        top: -10px;
+        left: 3px;
+        z-index: 100;
+        font-size: 12px;
+        font-weight: 600;
+        color: #2ecc71;
+        background-color: rgba(1, 1, 1, 0.4);
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+        padding: 0 5px;
+    }
+
+    .div-buttom-enviar {
+        margin-top: 70px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    .section-form-eventos-form {
+        width: 90% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .section-form-eventos-form div {
+        width: 100% !important;
+        display: inline-flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .section-form-eventos-form div label {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        text-align: left;
+        font-size: 1rem;
+        color: #fff;
+        margin: 20px 0;
+
+    }
+
+    .section-form-eventos-form div input {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding: 8px 10px;
+        text-align: left;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.2);
+        top: 20px;
+
+    }
+
+    .div-textarea-asunto label {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        text-align: left;
+        font-size: 1rem;
+        color: #fff;
+        margin: 20px 0;
+    }
+
+    .div-textarea-asunto {
+        width: 98% !important;
+        margin-bottom: 30px !important;
+        position: relative;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .div-textarea-asunto textarea {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        padding: 15px 10px;
+        text-align: left;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .section-form-eventos-form div textarea::placeholder {
+        color: transparent;
+    }
+
+    .section-form-eventos-form div textarea:focus {
+        outline: 1px solid #2ecc71;
+        border: none;
+    }
+
+    .section-form-eventos-form div textarea:focus+label,
+    .section-form-eventos-form div textarea:not(:placeholder-shown)+label {
+        top: -10px;
+        left: 3px;
+        z-index: 100;
+        font-size: 12px;
+        font-weight: 600;
+        color: #2ecc71;
+        background-color: rgba(1, 1, 1, 0.4);
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+        padding: 0 5px;
+    }
+
+    .div-buttom-enviar {
+        margin-top: 70px;
+    }
+
 }
