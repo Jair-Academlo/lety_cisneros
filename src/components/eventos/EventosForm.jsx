@@ -1,6 +1,19 @@
+import N1 from '../../imgs/sobre-mi/carousel1.jpeg';
+import N2 from '../../imgs/sobre-mi/carousel2.jpeg';
+import N3 from '../../imgs/sobre-mi/carousel3.jpeg';
+import N4 from '../../imgs/sobre-mi/carousel4.jpeg';
+import N5 from '../../imgs/sobre-mi/carousel5.jpeg';
+import N6 from '../../imgs/sobre-mi/carousel6.jpeg';
+import N7 from '../../imgs/sobre-mi/carousel7.jpeg';
+import N8 from '../../imgs/sobre-mi/carousel8.jpeg';
+import N9 from '../../imgs/sobre-mi/carousel9.jpeg';
+import N10 from '../../imgs/sobre-mi/carousel10.jpeg';
+
 import './eventosForm.css';
 
 const EventosForm = () => {
+	const imgs = [N1, N2, N3, N4, N5, N6, N7, N8, N9, N10];
+
 	return (
 		<>
 			<section className='section-eventos-form'>
@@ -124,6 +137,15 @@ const EventosForm = () => {
 					<input type='hidden' name='_captcha' value='false'></input>
 				</form>
 			</section>
+			<div className='container-section-logos'>
+				<section className='section-logos'>
+					{imgs.map((img, index) => (
+						<div key={index}>
+							<img src={img} alt={`imagen-${index}`} />
+						</div>
+					))}
+				</section>
+			</div>
 		</>
 	);
 };
