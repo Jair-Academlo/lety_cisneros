@@ -13,12 +13,12 @@ const EventosForm = () => {
 					method='POST'
 					className='section-form-eventos-form'
 				>
-					{/* <div>
+					<div>
+						<input type='date' name='fecha' id='fecha' />
 						<label htmlFor='fecha'>
 							Fecha tentativa día del evento:
 						</label>
-						<input type='date' name='fecha' id='fecha' />
-					</div> */}
+					</div>
 					<div>
 						<input
 							type='text'
@@ -37,15 +37,7 @@ const EventosForm = () => {
 						/>
 						<label htmlFor='email'>Email:</label>
 					</div>
-					<div>
-						<input
-							type='text'
-							id='asunto'
-							name='asunto'
-							placeholder='Asunto'
-						/>
-						<label htmlFor='asunto'>Asunto:</label>
-					</div>
+
 					<div>
 						<input
 							type='text'
@@ -110,6 +102,15 @@ const EventosForm = () => {
 							placeholder='modalidad'
 						/>
 						<label htmlFor='modalidad'>Presencial o Virtual</label>
+					</div>
+					<div className='div-textarea-asunto'>
+						<textarea
+							type='text'
+							id='asunto'
+							name='asunto'
+							placeholder='Asunto'
+						/>
+						<label htmlFor='asunto'>Asunto:</label>
 					</div>
 					<div className='div-buttom-enviar'>
 						<button type='submit'> Enviar </button>
