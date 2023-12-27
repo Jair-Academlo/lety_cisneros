@@ -111,7 +111,7 @@ const EventosForm = () => {
 						/>
 						<label htmlFor='modalidad'>Presencial o Virtual</label>
 					</div>
-					<div>
+					<div className='div-buttom-enviar'>
 						<button type='submit'> Enviar </button>
 					</div>
 					<input

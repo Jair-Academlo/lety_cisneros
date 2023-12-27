@@ -18,12 +18,18 @@
 }
 
 .section-form-eventos-form {
+    display: flex;
     width: 80%;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     border: 1px solid #2ecc71;
     padding: 20px;
     text-align: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 
 
@@ -57,22 +63,24 @@
     z-index: 0;
 }
 
-.section-form-eventos-form div input,
-textarea {
+.section-form-eventos-form div input {
     /*    width: 50%;
     padding: 8px 10px;
     text-align: left;
     font-size: 0.9rem;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.2); */
+    display: block;
+    width: 300px;
+
     position: absolute;
     color: #fff;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    /* border: 1px solid #dadce0; */
-    border-radius: 7px;
+    border: 1px solid #fff;
+    border-radius: 10px;
     font-size: 16px;
     padding: 0 20px;
     outline: none;
@@ -86,6 +94,7 @@ textarea {
 
 .section-form-eventos-form div input:focus {
     outline: 1px solid #2ecc71;
+    border: none;
 }
 
 .section-form-eventos-form div input:focus+label,
@@ -105,6 +114,13 @@ textarea {
 .section-form-eventos-form div input:hover,
 textarea:hover {
     cursor: pointer;
+}
+
+.div-buttom-enviar {
+    width: 90% !important;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
 }
 
 
