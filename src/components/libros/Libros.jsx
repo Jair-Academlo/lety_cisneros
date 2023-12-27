@@ -11,8 +11,8 @@ const Libros = () => {
 			<section className='section-libros'>
 				<div id='section-libros-titulo'>
 					<h1>
-						Conoce como millones de personas han cambiado sus vidas
-						a traves de mis libros.
+						Conoce como cientos de personas han cambiado sus vidas a
+						traves de mis libros.
 					</h1>
 				</div>
 				<div id='section-libros-descripcion'>
