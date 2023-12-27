@@ -165,6 +165,33 @@ textarea:hover {
     background-color: #2ecc71;
 }
 
+.div-input-checked {
+    width: 45% !important;
+    display: flex !important;
+    justify-content: right !important;
+    align-items: center !important
+}
+
+.div-input-checked label {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 90%;
+    position: inherit;
+}
+
+input#lugar {
+    width: 5%;
+    position: inherit;
+    height: auto;
+    border: none;
+    outline: none;
+}
+
+
+
 @media screen and (min-width: 500px) and (max-width: 800px) {
 
     .section-form-eventos-form div {
@@ -257,7 +284,6 @@ textarea:hover {
     }
 
 }
-
 
 
 @media screen and (min-width: 300px) and (max-width: 499px) {
