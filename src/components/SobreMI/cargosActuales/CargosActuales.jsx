@@ -1,5 +1,5 @@
-import './cargosActuales.css';
 import N1 from '../../../imgs/sobre-mi/cargo-actual.jpeg';
+import './cargosActuales.css';
 
 const CargosActuales = () => {
 	return (

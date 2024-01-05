@@ -1,7 +1,7 @@
-import './section4.css';
 import N1 from '../../../imgs/sobre-mi/trascedencia1.jpeg';
 import N2 from '../../../imgs/sobre-mi/transcendencia4.jpeg';
 import N3 from '../../../imgs/sobre-mi/trascendencia3.jpeg';
+import './section4.css';
 
 const Section4 = () => {
 	return (
