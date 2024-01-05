@@ -106,9 +106,7 @@ const EventosForm = () => {
 						<label htmlFor='modalidad'>Presencial o Virtual</label>
 					</div>
 					<div className='div-input-checked'>
-						<label>
-							¿Cuenta con algún lugar para la conferencia?
-						</label>
+						<p>¿Cuenta con algún lugar para la conferencia?</p>
 						<input type='checkbox' name='lugar' id='lugar' />
 					</div>
 					<div className='div-textarea-asunto'>
