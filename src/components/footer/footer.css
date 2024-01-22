@@ -75,6 +75,12 @@
 
 }
 
+.section-footer #footer-copyrigth h6:hover {
+    cursor: pointer;
+    color: #fdad46;
+    transition: 0.5s;
+}
+
 @media screen and (min-width: 350px) and (max-width: 1000px) {
     .section-footer {
         width: 100%;
