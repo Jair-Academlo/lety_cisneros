@@ -1,19 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Cormorant+Garamond:wght@300&family=Metrophobic&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 .section-politicas-y-privacidad {
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     color: white;
     background-color: rgba(255, 255, 255, 0.1);
     gap: 30px;
     font-family: 'Metrophobic', sans-serif;
+}
 
+.section-politicas-y-privacidad div h1 {
+    text-align: center;
+    color: #fdad46;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.section-politicas-y-privacidad article p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.div-button-politicas {
+    display: inline-flex;
+    width: 100%;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.div-button-politicas button {
+    background-color: #fdad46;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
 }

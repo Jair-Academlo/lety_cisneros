@@ -54,7 +54,7 @@ const PoliticaPrivacidad = ({ setModal }) => {
 						consultarla en esta app.
 					</p>
 				</article>
-				<div>
+				<div className='div-button-politicas'>
 					<button
 						onClick={() => {
 							setModal(false);
