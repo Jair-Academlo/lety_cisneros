@@ -4,7 +4,7 @@ import './politicaPrivacidad.css';
 const PoliticaPrivacidad = ({ setModal }) => {
 	return (
 		<>
-			<section>
+			<section className='section-politicas-y-privacidad'>
 				<div>
 					<h1>Politica de Privacidad</h1>
 				</div>
