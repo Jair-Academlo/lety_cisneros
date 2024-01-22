@@ -1,6 +1,7 @@
-import '../styles/politicaPrivacidad.css';
+import './politicaPrivacidad.css';
 
-const PoliticaPrivacidad = () => {
+// eslint-disable-next-line react/prop-types
+const PoliticaPrivacidad = ({ setModal }) => {
 	return (
 		<>
 			<section>
@@ -53,6 +54,16 @@ const PoliticaPrivacidad = () => {
 						consultarla en esta app.
 					</p>
 				</article>
+				<div>
+					<button
+						onClick={() => {
+							setModal(false);
+						}}
+					>
+						{' '}
+						Cerrar{' '}
+					</button>
+				</div>
 			</section>
 		</>
 	);

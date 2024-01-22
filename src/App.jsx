@@ -4,7 +4,6 @@ import SobreMi from './pages/SobreMi';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Eventos from './pages/Eventos';
-import PoliticaPrivacidad from './pages/PoliticaPrivacidad';
 import './App.css';
 
 const App = () => {
@@ -16,7 +15,6 @@ const App = () => {
 					<Route path='/' element={<Home />} />
 					<Route path='/sobre-mi' element={<SobreMi />} />
 					<Route path='/eventos' element={<Eventos />} />
-					<Route path='/politica' element={<PoliticaPrivacidad />} />
 				</Routes>
 				<Footer />
 			</HashRouter>
