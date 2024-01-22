@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Cormorant+Garamond:wght@300&family=Metrophobic&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
 .section-politicas-y-privacidad {
     padding: 30px;
     display: flex;
@@ -12,5 +14,6 @@
     color: white;
     background-color: rgba(255, 255, 255, 0.1);
     gap: 30px;
+    font-family: 'Metrophobic', sans-serif;
 
 }
